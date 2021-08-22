@@ -1,0 +1,273 @@
+body {
+    font-family: Ubuntu;
+    /*width: 80%;*/
+    /*text-align: center;*/
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+p {
+    margin-top: 15px;
+}
+
+.main-btn {
+    background: rgb(22, 185, 22);
+    color: white;
+    border: none;
+    height: 53px;
+}
+.main-btn span {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+
+}
+.btn-list {
+    background-color: rgb(22, 185, 22);
+    color: white;
+    border: none;
+    padding: 15px;
+
+}
+
+.btn-list::before {
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    float: right;
+    margin-left: 10px;
+  }
+  
+.first-list {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-list__content ul{
+    display: flex;
+    
+}
+
+.first-list__content ul li {
+    margin: auto 10px;
+    justify-content: space-between;
+    /*border-right:1px solid #929292;*/
+}
+
+.first-list__content ul li:last-child {
+    font-size: 1.4rem;
+}
+
+
+
+.main-list nav ul{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main-second-list ul li:hover {
+    font-weight: bold;
+    border-bottom: 2px solid green;
+    transition: 0.8s;
+}
+
+.container {
+    padding-left: 0px;
+}
+
+.container ul {
+    display: flex;
+   
+}
+.container ul li {
+    margin: auto 10px;
+}
+
+.container-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container-list ul li {
+    margin: auto 10px;
+}
+
+.container ul li:nth-last-child(1){
+    color: rgb(22, 185, 22);
+}
+
+.btn2 {
+    background-color: white;
+    border: 1px solid rgb(22, 185, 22);
+    padding: 10px 15px;
+    color: rgb(22, 185, 22);
+    font-weight: bold;
+
+}
+
+.btn2::before {
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    float: right;
+    margin-left: 10px;
+  }
+
+.main-offer-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding-top: 20px;
+}
+
+.main-offer-container {
+    width: 100%;
+}
+
+.main-offer-container .main-offer-container {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+  
+.main-offer__second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+
+.main-offer-gallery .main-offer__img img {
+    width: 100%;
+}
+  .main-offer-gallery .main-offer__info {
+    padding: 10px;
+}
+  .main-offer-gallery .main-offer__info .main-offer__text h2 {
+    margin-bottom: 7px;
+    font-size: 29px;
+}
+  .main-offer-gallery .main-offer__info .main-offer__second {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+  .main-offer-gallery .main-offer__info .main-offer__second .main-offer__price {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-offer__price ul li:last-child {
+    font-size: 1.5rem;
+    color: rgb(22, 185, 22);
+    font-weight: bold;
+}
+
+.main-trips {
+    margin: 60px 0;
+    background: #ffffff;
+    padding: 30px;
+}
+.main-trips p:nth-child(2) {
+    margin-top: 30px;
+}
+  
+.footer-products {
+    display: flex;
+
+}
+
+.footer-container ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-products__option span {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 22px 48px;
+    border-right: 1px solid #e6e6e6;
+}
+
+.footer-products__option .footer-products__icon {
+    color: rgb(22, 185, 22);
+
+}
+.footer-adviser {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-top: 44px;
+}
+  
+
+.footer-main  {
+  position: relative;
+  /*height: 250px;*/
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  background-image: url(./assets/comprar-coche-2020_hd_126693.jpg);
+  background-position: center;
+
+}
+.adviser-container {
+    width: 50%;
+    padding: 5px 5px;
+}
+
+.adviser-container h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    
+}
+
+.btn3 {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 12px 18px;
+}
+
+footer .footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 0 28px;
+  }
+  footer .footer-links__divs {
+    text-align: center;
+  }
+  footer .footer-links__divs .footer-links__title {
+    color: rgb(22, 185, 22);
+  }
+  footer .footer-links__divs .footer-links__lists {
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+  footer .footer-links__divs .footer-links__lists li {
+    margin-top: 5px;
+  }
+  
